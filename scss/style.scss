@@ -1904,3 +1904,114 @@ b, strong{
   display: flex;
   flex-wrap: wrap;
 }
+.tsmb-silver{
+  @include font(300,15px);
+  color:#000;
+}
+.tsmb-silver-second{
+  @include font(400,15px);
+  color:#000;
+  strong{
+    font-weight: 500;
+  }
+}
+.tmb-price{
+  @include font(700,29px);
+  color:#000;
+  margin-bottom: 15px;
+}
+.smb-list{
+  margin-bottom: 30px;
+  ul{
+    margin-bottom: 0;
+    li{
+      margin-bottom: 20px;
+      strong{
+        @include font(700,14px);
+        color:#292929;
+      }
+      p{
+        margin-bottom: 0;
+        @include font(300,14px);
+        color:#292929;
+      }
+    }
+  }
+}
+.tb-btn{
+  width: 100%;
+  border-radius: 30px;
+  padding:15px;
+  text-align: left;
+  @include font(700,15px);
+  color:#000000;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(148,148,148,0.25);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(148,148,148,0.25);
+  box-shadow: 0px 0px 10px 0px rgba(148,148,148,0.25);
+  border:0;
+  position: relative;
+  margin-bottom: 10px;
+  &:after{
+    position: absolute;
+    top:50%;
+    @extend %top-50;
+    right: 15px;
+    content: '\f054';
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#000;
+
+  }
+}
+.two-buttons-smb{
+  margin-bottom:20px;
+  .btn-orange{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 13px 0;
+    width: 100%;
+  }
+}
+.bab-single-one{
+  img{
+    float:left;
+    margin-right: 15px;
+  }
+}
+.babs-info{
+  overflow: hidden;
+  @include font(400,14px);
+  color:#000;
+}
+.btn-silver{
+  padding: 5px 25px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border:1px solid #c4c4c4;
+  @include font(400,15px);
+  color:#000;
+  &.active{
+    background: #c4c4c4;
+  }
+}
+.normal-btn{
+  border-radius: 30px;
+  padding:10px 20px;
+  text-align: left;
+  i{
+    margin-left: 15px;
+  }
+  @include font(700,15px);
+  color:#000000;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(148,148,148,0.25);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(148,148,148,0.25);
+  box-shadow: 0px 0px 10px 0px rgba(148,148,148,0.25);
+  border:0;
+  position: relative;
+  margin-bottom: 10px;
+}
