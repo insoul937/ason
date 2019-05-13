@@ -1,5 +1,10 @@
 var $ = jQuery;
 $(document).ready(function(){
+    $('.large-block').zoom();
+    $(document).on("click.bs.dropdown.data-api", ".noclose", function (e) { e.stopPropagation() });
+    $('.wish-icon').click(function () {
+       $(this).toggleClass('active');
+    });
     $(".small-block ul li").click(function(){
         $(this).addClass('active').siblings().removeClass('active');
         var index = $(this).index();

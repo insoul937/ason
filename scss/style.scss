@@ -621,6 +621,8 @@ ul.list-unstyled{
 }
 .left-vacancy{
   padding: 50px 35px;
+  max-height: 365px;
+  overflow: hidden;
   p{
     @include font(300,16px);
     color:#000;
@@ -1068,6 +1070,9 @@ ul.list-unstyled{
   span{
     @include font(400,16px);
     color:#282828;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
   }
 }
 .form-group{
@@ -1248,6 +1253,11 @@ ul.list-unstyled{
     margin-right: 10px;
     margin-bottom: 15px;
   }
+}
+.cat-drop{
+  padding: 5px 15px;
+  max-height: 200px;
+  overflow-y: scroll;
 }
 .dropdown{
   &.show{
@@ -2015,3 +2025,48 @@ b, strong{
   position: relative;
   margin-bottom: 10px;
 }
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-file {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.zoom {
+  display:inline-block;
+  position: relative;
+}
+
+/* magnifying glass icon */
+.zoom:after {
+  content:'';
+  display:block;
+  width:33px;
+  height:33px;
+  position:absolute;
+  top:0;
+  right:0;
+  background:url(icon.png);
+}
+
+.zoom img {
+  display: block;
+}
+
+.zoom img::selection { background-color: transparent; }
