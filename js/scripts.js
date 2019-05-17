@@ -1,5 +1,6 @@
 var $ = jQuery;
 $(document).ready(function(){
+    $('.fancy').fancybox();
     $('.large-block').zoom();
     $(document).on("click.bs.dropdown.data-api", ".noclose", function (e) { e.stopPropagation() });
     $('.wish-icon').click(function () {

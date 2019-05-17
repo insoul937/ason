@@ -9,6 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/owl.carousel.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -17,6 +18,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/select2.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
     <script src="js/jquery.zoom.min.js"></script>
     <script src="js/scripts.js"></script>
 
@@ -39,8 +41,8 @@
           <div class="offset-sm-3 col-sm-5">
             <div class="header-right">
               <div class="registration-container">
-                <div class="register-b"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">Регистрация</a></div>
-                <div ><i class="fa fa-sign-in" aria-hidden="true"></i>  <a href="#">Логин</a></div>
+                <div class="register-b"><i class="fa fa-user" aria-hidden="true"></i> <a href="#popup-register" class="fancy">Регистрация</a></div>
+                <div ><i class="fa fa-sign-in" aria-hidden="true"></i>  <a href="#popoup" class="fancy">Логин</a></div>
               </div><!--registration-container-->
               <div class="language-container">
                 <ul class="list-unstyled">
@@ -844,5 +846,98 @@
       </div><!--bottom-footer-->
     </div><!--container-->
   </footer><!--footer-->
+  <div id="popoup" class="popup-container">
+      <div class="pop-header">
+        <div class="poph-title"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Anmelden</div>
+      </div><!--pop-header-->
+    <div class="pop-middle">
+      <div class="pop-input-text-top">
+        <div class="row align-items-center justify-content-center mb-10px">
+          <div class="col-sm-7">
+            <div class="pitt-text">Войти с помощью аккаунта Ason</div>
+          </div>
+          <div class="col-sm-5">
+            <div class="ca-block text-right">
+              <a href="#" class="create-account">Создать аккаунт</a>
+            </div>
+          </div>
+        </div><!--row-->
+      </div><!--pop-input-text-top-->
+      <input type="text" placeholder="E-mail" class="form-control">
+      <input type="text" placeholder="Password" class="form-control">
+      <div class="popup-buttons">
+        <button class="btn btn-orange">Войти</button>
+        <a href="#" class="pass-link">Passwort vergessen?</a>
+      </div><!--popup-buttons-->
+      <hr/>
+      <div class="pop-socials">
+        <div class="pops-text">Через соцсети (для новых пользователей)</div>
+        <div class="pop-soc-list">
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="#"><img src="images/vk-big.png" alt="" /></a>
+              <a href="#"><img src="images/google-big.png" alt="" /></a>
+            </div>
+            <div class="col-sm-6">
+              <a href="#"><img src="images/fb-big.png" alt="" /></a>
+              <a href="#"><img src="images/mail-big.png" alt="" /></a>
+            </div><!--col-sm-6-->
+          </div><!--row-->
+
+
+        </div><!--pop-soc-list-->
+        <div class="pops-text">Я согласен(на) на обработку моих
+          персональных данных. Подробнее</div>
+      </div><!--pop-socials-->
+    </div><!--pop-middle-->
+  </div><!--popup-container-->
+  <div id="popup-register" class="popup-container">
+    <div class="pop-header">
+      <div class="poph-title"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Регистрация</div>
+    </div><!--pop-header-->
+    <div class="pop-middle">
+      <div class="pop-input-text-top">
+        <div class="row align-items-center justify-content-center mb-10px">
+          <div class="col-sm-7">
+            <div class="pitt-text">Войти с помощью аккаунта Ason</div>
+          </div>
+          <div class="col-sm-5">
+            <div class="ca-block text-right">
+              <a href="#" class="create-account">Создать аккаунт</a>
+            </div>
+          </div>
+        </div><!--row-->
+      </div><!--pop-input-text-top-->
+      <input type="text" placeholder="Имя" class="form-control">
+      <input type="text" placeholder="Фамилия" class="form-control">
+      <input type="text" placeholder="E-mail" class="form-control">
+      <input type="text" placeholder="Password" class="form-control">
+      <div class="text-center">
+        <div class="popup-checks mb-10px">
+          <div class="pop-check">
+            <label class="check checked">
+              <span class="radio" >
+                <input type="radio" name="val" checked>
+              </span>
+              <span>Женщина</span>
+            </label>
+          </div>
+          <div class="pop-check">
+            <label class="check ">
+              <span class="radio">
+                <input type="radio" name="val">
+              </span>
+              <span>Мужчина</span>
+            </label>
+          </div>
+        </div>
+        <button class="btn btn-orange mb-20px mr-none">Зарегестрироваться</button>
+        <div class="pop-oferta">
+          Нажимая на кнопку «Зарегистрироваться», вы подтверждаете свое согласие с условиями <a href="#">Публичной офферты</a> и
+          <a href="#">Политикой конфиденциальности</a>
+        </div>
+      </div>
+    </div><!--pop-middle-->
+  </div><!--popup-container-->
   </body>
 </html>
