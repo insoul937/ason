@@ -1,5 +1,11 @@
 var $ = jQuery;
 $(document).ready(function(){
+    $(".header-nav ul li").on({
+        mouseenter: function () {
+            $(this).find('.second-menu').slideDown();},
+        mouseleave: function () {
+            $(this).find('.second-menu').slideUp();}
+    });
     $('.fancy').fancybox();
     $('.large-block').zoom();
     $(document).on("click.bs.dropdown.data-api", ".noclose", function (e) { e.stopPropagation() });
