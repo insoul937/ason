@@ -2268,3 +2268,43 @@ b, strong{
     color:#fff;
   }
 }
+.header-bottom-mobile{
+  padding: 10px 0;
+  ul{
+    margin-bottom: 0;
+    li{
+      text-align: center;
+      &.active{
+        a{
+          color:$orange;
+        }
+      }
+      a{
+        @include font(500,14px);
+        color:#a8a8a8;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.mobile-logo{
+  img{
+    max-width: 36vw;
+  }
+}
+.header-top-mobile{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #f7f7f7;
+  a{
+    color:#000;
+    font-size: 20px;
+  }
+  .row{
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  .col{
+    padding: 0 5px;
+  }
+}
