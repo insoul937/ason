@@ -42,6 +42,15 @@ $(document).ready(function(){
         dots: false,
         autoplay: false,
         loop: true,
+        responsive:{
+            0 :{
+               items:2,
+            },
+            768 :{
+                items:4,
+            },
+
+        }
     });
     if($(".checkbox").length > 0 || $(".radio").length > 0){
         checks();

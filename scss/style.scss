@@ -1188,14 +1188,32 @@ ul.list-unstyled{
 .cat-links{
   ul{
     li{
-      margin-bottom: 10px;
+
       @include font(300,14px);
       span{
         color:#cbcbcb;
       }
+      ul{
+        margin-left: 15px;
+        li{
+          a{
+            font-weight: 500;
+          }
+          ul{
+            li{
+              a{
+                @include font(300,13px);
+                color: #b2b2b2;
+              }
+            }
+          }
+        }
+      }
       a{
-        @include font(300,14px);
+        @include font(700,14px);
         color:#1e1e1e;
+        margin-bottom: 10px;
+        display: inline-block;
       }
     }
   }
@@ -2242,4 +2260,11 @@ b, strong{
 .rmb-title{
   @include font3(700,17px);
   color:#252525;
+}
+.bottom-link-home{
+  padding: 10px 0;
+  a{
+    @include font2(500,18px);
+    color:#fff;
+  }
 }

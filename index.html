@@ -32,69 +32,70 @@
   </head>
   <body>
   <header id="header" >
-    <div class="header-top">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-sm-4">
-            <div class="header-help"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> <a href="#">Помощь и контакт</a></div>
-          </div><!--col-sm-4-->
-          <div class="offset-sm-3 col-sm-5">
-            <div class="header-right">
-              <div class="registration-container">
-                <div class="register-b"><i class="fa fa-user" aria-hidden="true"></i> <a href="#popup-register" class="fancy">Регистрация</a></div>
-                <div ><i class="fa fa-sign-in" aria-hidden="true"></i>  <a href="#popoup" class="fancy">Логин</a></div>
-              </div><!--registration-container-->
+    <div class="d-none d-md-block">
+      <div class="header-top">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-4">
+              <div class="header-help"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> <a href="#">Помощь и контакт</a></div>
+            </div><!--col-sm-4-->
+            <div class="offset-sm-3 col-sm-5">
+              <div class="header-right">
+                <div class="registration-container">
+                  <div class="register-b"><i class="fa fa-user" aria-hidden="true"></i> <a href="#popup-register" class="fancy">Регистрация</a></div>
+                  <div ><i class="fa fa-sign-in" aria-hidden="true"></i>  <a href="#popoup" class="fancy">Логин</a></div>
+                </div><!--registration-container-->
+                <div class="language-container">
+                  <ul class="list-unstyled">
+                    <li><span>Ru</span></li>
+                    <li><a href="#">En</a></li>
+                  </ul>
+                </div><!--language-container-->
+              </div><!--header-right-->
+            </div><!--col-sm-5-->
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--header-top-->
+      <div class="header-middle">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-4">
+              <div class="middle-list">
+                <ul class="list-unstyled">
+                  <li><a href="#">Damen</a></li>
+                  <li><a href="#">Herren</a></li>
+                  <li><a href="#">Kinder</a></li>
+                </ul>
+              </div><!--middle-list-->
+            </div><!--col-sm-4-->
+            <div class="col-sm-4">
+              <div class="logo">
+                <a href="#"><img src="images/logo.jpg" alt="" class="img-fluid" /></a>
+              </div>
+            </div><!--col-sm-4-->
+            <div class="col-sm-4">
+              <div class="middle-right">
               <div class="language-container">
                 <ul class="list-unstyled">
                   <li><span>Ru</span></li>
                   <li><a href="#">En</a></li>
                 </ul>
-              </div><!--language-container-->
-            </div><!--header-right-->
-          </div><!--col-sm-5-->
-        </div><!--row-->
-      </div><!--container-->
-    </div><!--header-top-->
-    <div class="header-middle">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-sm-4">
-            <div class="middle-list">
-              <ul class="list-unstyled">
-                <li><a href="#">Damen</a></li>
-                <li><a href="#">Herren</a></li>
-                <li><a href="#">Kinder</a></li>
-              </ul>
-            </div><!--middle-list-->
-          </div><!--col-sm-4-->
-          <div class="col-sm-4">
-            <div class="logo">
-              <a href="#"><img src="images/logo.jpg" alt="" class="img-fluid" /></a>
-            </div>
-          </div><!--col-sm-4-->
-          <div class="col-sm-4">
-            <div class="middle-right">
-            <div class="language-container">
-              <ul class="list-unstyled">
-                <li><span>Ru</span></li>
-                <li><a href="#">En</a></li>
-              </ul>
-            </div>
-              <a href="#" class="wish-link">
-                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                <div class="w-text">Избранное</div>
-              </a>
-              <a href="#" class="cart-link">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                <div class="w-text">Корзина</div>
-                <div class="cart-count">2</div>
-              </a>
-            </div>
-          </div><!--col-sm-4-->
-        </div><!--row-->
-      </div><!--container-->
-    </div><!--header-middle-->
-    <div class="header-bottom">
+              </div>
+                <a href="#" class="wish-link">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  <div class="w-text">Избранное</div>
+                </a>
+                <a href="#" class="cart-link">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <div class="w-text">Корзина</div>
+                  <div class="cart-count">2</div>
+                </a>
+              </div>
+            </div><!--col-sm-4-->
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--header-middle-->
+      <div class="header-bottom">
         <div class="container">
           <div class="row align-items-start">
             <div class="col-sm-8">
@@ -261,12 +262,24 @@
           </div><!--row-->
         </div><!--container-->
     </div><!--header-bottom-->
+    </div>
+    <div class="d-block d-md-none">
+      <div class="header-bottom-mobile">
+        <div class="container">
+          <ul class="row">
+            <li class="col"><a href="#">Мужчинам</a></li>
+            <li class="col"><a href="#">Женщинам</a></li>
+            <li class="col"><a href="#">Детям</a></li>
+          </ul>
+        </div>
+      </div><!--header-bottom-mobile-->
+    </div><!--d-md-none-->
   </header><!--header-->
   <section id="content">
     <div class="top-block mb-50px">
       <div class="top-carousel owl-carousel">
         <div class="item">
-          <div class="tc-block">
+          <div class="tc-block" style="background-image: url('images/tmp/t1.jpg');">
             <a href="#" class="tc-img"><img src="images/tmp/t1.jpg" alt="" /></a>
             <div class="tc-white">
               <div class="tc-title">Легкие куртки и ветровки</div>
@@ -545,25 +558,25 @@
       <div class="block-container mb-50px">
         <h3 class="mb-25px">Bleib auf dem Laufen</h3>
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-sm-3 col-6">
             <div class="bc-block">
               <a href="#" class="bc-img"><img src="images/tmp/bc1.jpg" alt=""></a>
               <a href="#" class="bc-title">Брюки</a>
             </div><!--bc-block-->
           </div><!--col-sm-3-->
-          <div class="col-sm-3">
+          <div class="col-sm-3 col-6">
             <div class="bc-block">
               <a href="#" class="bc-img"><img src="images/tmp/bc2.jpg" alt=""></a>
               <a href="#" class="bc-title">Верхняя одежда</a>
             </div><!--bc-block-->
           </div><!--col-sm-3-->
-          <div class="col-sm-3">
+          <div class="col-sm-3 col-6">
             <div class="bc-block">
               <a href="#" class="bc-img"><img src="images/tmp/bc3.jpg" alt=""></a>
               <a href="#" class="bc-title">Джинсы</a>
             </div><!--bc-block-->
           </div><!--col-sm-3-->
-          <div class="col-sm-3">
+          <div class="col-sm-3 col-6">
             <div class="bc-block">
               <a href="#" class="bc-img"><img src="images/tmp/bc4.jpg" alt=""></a>
               <a href="#" class="bc-title">Туфли</a>
@@ -587,7 +600,7 @@
         <h3>Платья</h3>
         <a href="#" class="btn btn-white mb-35px">Посмотреть <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <div class="cc-block">
               <a href="#1" class="wish-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
               <a href="#" class="cc-image">
@@ -607,7 +620,7 @@
 
             </div><!--cc-block-->
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <div class="cc-block">
               <a href="#1" class="wish-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
               <a href="#" class="cc-image">
@@ -627,7 +640,7 @@
 
             </div><!--cc-block-->
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-6">
             <div class="cc-block">
               <a href="#1" class="wish-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
               <a href="#" class="cc-image">
@@ -755,7 +768,7 @@
           </div><!--item-->
         </div><!--owl-carousel-->
       </div><!--catalog-container-->
-      <div class="bottom-block">
+      <div class="bottom-block" style="background-image: url('images/tmp/bottom1.jpg');">
         <img src="images/tmp/bottom1.jpg" alt="" />
         <div class="bb-abs">
           <div class="row">
@@ -890,7 +903,8 @@
     </div><!--container-->
   </section><!--content-->
   <footer id="footer">
-    <div class="container">
+    <div class="d-none d-md-block">
+      <div class="container">
       <div class="footer-title">ОБСЛУЖИВАНИЕ КЛИЕНТОВ</div>
       <div class="top-footer-block">
         <div class="row">
@@ -985,6 +999,26 @@
         </div><!--row-->
       </div><!--bottom-footer-->
     </div><!--container-->
+    </div>
+    <div class="d-md-none d-block">
+      <div class="mobile-downloads">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-6">
+            <a href="#">
+              <img src="images/appstore-d.png" alt="" class="img-fluid" />
+            </a>
+          </div><!--col-sm-6-->
+          <div class="col-6">
+            <a href="#">
+              <img src="images/google-play-d.png" alt="" class="img-fluid" />
+            </a>
+          </div><!--col-sm-6-->
+        </div><!--row-->
+      </div><!--mobile-donwloads-->
+      <div class="bottom-link-home">
+        <a href="#">Перейти на основной сайт</a>
+      </div><!--bottom-link-home-->
+    </div><!--d-md-block-->
   </footer><!--footer-->
   <div id="popoup" class="popup-container">
       <div class="pop-header">
