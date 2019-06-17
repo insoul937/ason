@@ -1,6 +1,37 @@
 @media(max-width: 767px) {
+    .fp-image{
+        display: none !important;
+    }
+    .fpt-top{
+        position: relative;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .first-page-top{
+        background-size: cover;
+    }
+    .fpt-top .btn-transparent{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .fpt-center p{
+        display: none;
+    }
+    .fpt-center{
+        padding: 30px;
+    }
+    .fpt-title{
+        margin-bottom: 0;
+    }
     .cc-price {
         text-align: left;
+    }
+    .fpt-center{
+        position: relative;
+        top:0 !important;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%)
     }
 
     .block-container .tc-white {

@@ -29,101 +29,266 @@
   <![endif]-->
 </head>
   <body>
-  <header id="header" class="mb-50px">
-    <div class="header-top">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-sm-4">
-            <div class="header-help"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> <a href="#">Помощь и контакт</a></div>
-          </div><!--col-sm-4-->
-          <div class="offset-sm-3 col-sm-5">
-            <div class="header-right">
-              <div class="registration-container">
-                <div class="register-b"><i class="fa fa-user" aria-hidden="true"></i> <a href="#">Регистрация</a></div>
-                <div ><i class="fa fa-sign-in" aria-hidden="true"></i>  <a href="#">Логин</a></div>
-              </div><!--registration-container-->
-              <div class="language-container">
+  <header id="header" >
+    <div class="d-none d-md-block">
+      <div class="header-top">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-4">
+              <div class="header-help"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> <a href="#">Помощь и контакт</a></div>
+            </div><!--col-sm-4-->
+            <div class="offset-sm-3 col-sm-5">
+              <div class="header-right">
+                <div class="registration-container">
+                  <div class="register-b"><i class="fa fa-user" aria-hidden="true"></i> <a href="#popup-register" class="fancy">Регистрация</a></div>
+                  <div ><i class="fa fa-sign-in" aria-hidden="true"></i>  <a href="#popoup" class="fancy">Логин</a></div>
+                </div><!--registration-container-->
+                <div class="language-container">
+                  <ul class="list-unstyled">
+                    <li><span>Ru</span></li>
+                    <li><a href="#">En</a></li>
+                  </ul>
+                </div><!--language-container-->
+              </div><!--header-right-->
+            </div><!--col-sm-5-->
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--header-top-->
+      <div class="header-middle">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-4">
+              <div class="middle-list">
                 <ul class="list-unstyled">
-                  <li><span>Ru</span></li>
-                  <li><a href="#">En</a></li>
+                  <li><a href="#">Damen</a></li>
+                  <li><a href="#">Herren</a></li>
+                  <li><a href="#">Kinder</a></li>
                 </ul>
-              </div><!--language-container-->
-            </div><!--header-right-->
-          </div><!--col-sm-5-->
-        </div><!--row-->
-      </div><!--container-->
-    </div><!--header-top-->
-    <div class="header-middle">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-sm-4">
-            <div class="middle-list">
-              <ul class="list-unstyled">
-                <li><a href="#">Damen</a></li>
-                <li><a href="#">Herren</a></li>
-                <li><a href="#">Kinder</a></li>
-              </ul>
-            </div><!--middle-list-->
-          </div><!--col-sm-4-->
-          <div class="col-sm-4">
-            <div class="logo">
-              <a href="#"><img src="images/logo.jpg" alt="" class="img-fluid" /></a>
-            </div>
-          </div><!--col-sm-4-->
-          <div class="col-sm-4">
-            <div class="middle-right">
-              <div class="language-container">
-                <ul class="list-unstyled">
-                  <li><span>Ru</span></li>
-                  <li><a href="#">En</a></li>
-                </ul>
+              </div><!--middle-list-->
+            </div><!--col-sm-4-->
+            <div class="col-sm-4">
+              <div class="logo">
+                <a href="#"><img src="images/logo.jpg" alt="" class="img-fluid" /></a>
               </div>
-              <a href="#" class="wish-link">
-                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                <div class="w-text">Избранное</div>
-              </a>
-              <a href="#" class="cart-link">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                <div class="w-text">Корзина</div>
-                <div class="cart-count">2</div>
-              </a>
+            </div><!--col-sm-4-->
+            <div class="col-sm-4">
+              <div class="middle-right">
+                <div class="language-container">
+                  <ul class="list-unstyled">
+                    <li><span>Ru</span></li>
+                    <li><a href="#">En</a></li>
+                  </ul>
+                </div>
+                <a href="#" class="wish-link">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  <div class="w-text">Избранное</div>
+                </a>
+                <a href="#" class="cart-link">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <div class="w-text">Корзина</div>
+                  <div class="cart-count">2</div>
+                </a>
+              </div>
+            </div><!--col-sm-4-->
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--header-middle-->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col-sm-8">
+              <div class="header-nav">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#">Get the Look</a>
+                    <div class="second-menu">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <h6>Категории </h6>
+                          <div class="row">
+                            <div class="col-sm-4">
+                              <ul class="list-unstyled">
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Banana Republic</a></li>
+                                <li><a href="#">Baon</a></li>
+                                <li><a href="#">Befree</a></li>
+                                <li><a href="#">Betsy</a></li>
+                                <li><a href="#">Calvin Klein Jeans</a></li>
+                                <li><a href="#">Dorothy Perkins</a></li>
+                                <li><a href="#">GAP</a></li>
+                              </ul>
+                            </div><!--col-sm-4-->
+                            <div class="col-sm-4">
+                              <ul class="list-unstyled">
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Banana Republic</a></li>
+                                <li><a href="#">Baon</a></li>
+                                <li><a href="#">Befree</a></li>
+                                <li><a href="#">Betsy</a></li>
+                                <li><a href="#">Calvin Klein Jeans</a></li>
+                                <li><a href="#">Dorothy Perkins</a></li>
+                                <li><a href="#">GAP</a></li>
+                              </ul>
+                            </div><!--col-sm-4-->
+                            <div class="col-sm-4">
+                              <ul class="list-unstyled">
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Banana Republic</a></li>
+                                <li><a href="#">Baon</a></li>
+                                <li><a href="#">Befree</a></li>
+                                <li><a href="#">Betsy</a></li>
+                                <li><a href="#">Calvin Klein Jeans</a></li>
+                                <li><a href="#">Dorothy Perkins</a></li>
+                                <li><a href="#">GAP</a></li>
+                              </ul>
+                              <a href="#" class="orange-link">все категории ...</a>
+                            </div><!--col-sm-4-->
+                          </div><!--row-->
+                        </div>
+                        <div class="col-sm-3">
+                          <h6>Бренды</h6>
+                          <ul class="list-unstyled">
+                            <li><a href="#">Adidas</a></li>
+                            <li><a href="#">Banana Republic</a></li>
+                            <li><a href="#">Baon</a></li>
+                            <li><a href="#">Befree</a></li>
+                            <li><a href="#">Betsy</a></li>
+                            <li><a href="#">Calvin Klein Jeans</a></li>
+                            <li><a href="#">Dorothy Perkins</a></li>
+                            <li><a href="#">GAP</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-3">
+                          <a href="#" class="right-menu-banner">
+                            <img src="images/menu1.jpg" alt="" class="img-fluid mb-20px" />
+                            <div class="rmb-text text-center">
+                              <div class="rmb-title">Скидки до 50%</div>
+                              <p>по промокоду на обувь</p>
+                            </div>
+                          </a>
+                        </div><!--col-sm-3-->
+                      </div><!--row-->
+                    </div><!--second-menu-->
+                  </li>
+                  <li>
+                    <a href="#">Neu</a>
+                    <div class="second-menu">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <h6>Категории </h6>
+                          <div class="row">
+                            <div class="col-sm-4">
+                              <ul class="list-unstyled">
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Banana Republic</a></li>
+                                <li><a href="#">Baon</a></li>
+                                <li><a href="#">Befree</a></li>
+                                <li><a href="#">Betsy</a></li>
+                                <li><a href="#">Calvin Klein Jeans</a></li>
+                                <li><a href="#">Dorothy Perkins</a></li>
+                                <li><a href="#">GAP</a></li>
+                              </ul>
+                            </div><!--col-sm-4-->
+                            <div class="col-sm-4">
+                              <ul class="list-unstyled">
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Banana Republic</a></li>
+                                <li><a href="#">Baon</a></li>
+                                <li><a href="#">Befree</a></li>
+                                <li><a href="#">Betsy</a></li>
+                                <li><a href="#">Calvin Klein Jeans</a></li>
+                                <li><a href="#">Dorothy Perkins</a></li>
+                                <li><a href="#">GAP</a></li>
+                              </ul>
+                            </div><!--col-sm-4-->
+                            <div class="col-sm-4">
+                              <ul class="list-unstyled">
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Banana Republic</a></li>
+                                <li><a href="#">Baon</a></li>
+                                <li><a href="#">Befree</a></li>
+                                <li><a href="#">Betsy</a></li>
+                                <li><a href="#">Calvin Klein Jeans</a></li>
+                                <li><a href="#">Dorothy Perkins</a></li>
+                                <li><a href="#">GAP</a></li>
+                              </ul>
+                              <a href="#" class="orange-link">все категории ...</a>
+                            </div><!--col-sm-4-->
+                          </div><!--row-->
+                        </div>
+                        <div class="col-sm-3">
+                          <h6>Бренды</h6>
+                          <ul class="list-unstyled">
+                            <li><a href="#">Adidas</a></li>
+                            <li><a href="#">Banana Republic</a></li>
+                            <li><a href="#">Baon</a></li>
+                            <li><a href="#">Befree</a></li>
+                            <li><a href="#">Betsy</a></li>
+                            <li><a href="#">Calvin Klein Jeans</a></li>
+                            <li><a href="#">Dorothy Perkins</a></li>
+                            <li><a href="#">GAP</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-3">
+                          <a href="#" class="right-menu-banner">
+                            <img src="images/menu1.jpg" alt="" class="img-fluid mb-20px" />
+                            <div class="rmb-text text-center">
+                              <div class="rmb-title">Скидки до 50%</div>
+                              <p>по промокоду на обувь</p>
+                            </div>
+                          </a>
+                        </div><!--col-sm-3-->
+                      </div><!--row-->
+                    </div><!--second-menu-->
+                  </li>
+                  <li><a href="#">Bekleidung</a></li>
+                  <li><a href="#">Schuhe</a></li>
+                  <li><a href="#">Sport</a></li>
+                  <li><a href="#">Accessoires </a></li>
+                  <li><a href="#">Beauty</a></li>
+                  <li><a href="#">Premium</a></li>
+                  <li><a href="#">Marken</a></li>
+                </ul>
+              </div><!--header-nav-->
+            </div><!--col-sm-8-->
+            <div class="col-sm-4">
+              <div class="header-search clearfix">
+                <input placeholder="Serach your clothes....." type="text" class="form-control">
+                <button class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </div><!--header-search-->
             </div>
-          </div><!--col-sm-4-->
-        </div><!--row-->
-      </div><!--container-->
-    </div><!--header-middle-->
-    <div class="header-bottom">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-sm-8">
-            <div class="header-nav">
-              <ul class="list-unstyled">
-                <li><a href="#">Get the Look</a></li>
-                <li><a href="#">Neu</a></li>
-                <li><a href="#">Bekleidung</a></li>
-                <li><a href="#">Schuhe</a></li>
-                <li><a href="#">Sport</a></li>
-                <li><a href="#">Accessoires </a></li>
-                <li><a href="#">Beauty</a></li>
-                <li><a href="#">Premium</a></li>
-                <li><a href="#">Marken</a></li>
-              </ul>
-            </div><!--header-nav-->
-          </div><!--col-sm-8-->
-          <div class="col-sm-4">
-            <div class="header-search clearfix">
-              <input placeholder="Serach your clothes....." type="text" class="form-control">
-              <button class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </div><!--header-search-->
-          </div>
-        </div><!--row-->
-      </div><!--container-->
-    </div><!--header-bottom-->
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--header-bottom-->
+    </div>
+    <div class="d-block d-md-none">
+      <div class="header-top-mobile">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <a href="#" class="toggle-menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </div>
+            <div class="col">
+              <a href="#" class="mobile-search-icon"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+            <div class="col">
+              <a href="#" class="mobile-logo"><img src="images/logo.jpg" alt=""></a>
+            </div>
+            <div class="col">
+              <a href="#" class="heart-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+            </div>
+            <div class="col">
+              <a href="#" class="cart-mobile"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </div>
+          </div><!--row-->
+        </div>
+      </div><!--header-top-mobile-->
+    </div><!--d-md-none-->
   </header><!--header-->
   <section id="content">
     <div class="container">
-      <div class="first-page-top mb-30px">
-        <img src="images/tmp/ft1.jpg" alt="" >
+      <div class="first-page-top mb-30px" style="background-image: url('images/tmp/ft1.jpg')">
+        <img class="fp-image" src="images/tmp/ft1.jpg" alt="" >
         <div class="fpt-top">
           <a href="#" class="btn-transparent">DAMEN</a>
           <a href="#" class="btn-transparent">HERREN</a>
@@ -259,101 +424,122 @@
     </div><!--container-->
   </section><!--content-->
   <footer id="footer">
-    <div class="container">
-      <div class="footer-title">ОБСЛУЖИВАНИЕ КЛИЕНТОВ</div>
-      <div class="top-footer-block">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="hot-line">
-              <div class="hl-text">Горячая линия</div>
-              <div class="hl-phone"><a href="tel:+998951993737 ">+998 (95) 199-37-37</a></div>
-              <div class="work-time">Будни: с9:00 до 19:00 (Ташкентское время)</div>
-            </div><!--hot-line-->
-          </div><!--col-sm-4-->
-          <div class="col-sm-5">
-            <div class="footer-form">
-              <a href="#">Форма обратной связи</a>
-              <div class="ff-info">свяжитесь с нами по контактной форме</div>
-            </div><!--footer-form-->
-          </div><!--col-sm-4-->
-          <div class="col-sm-3">
-            <div class="all-footer">
-              <div class="silver-text">Узнать больше</div>
-              <img src="images/soc-right.jpg" alt="">
-            </div><!--all-footer-->
-          </div><!--col-sm-4-->
-        </div><!--row-->
-        <hr>
-      </div><!--top-footer-block-->
-      <div class="bottom-footer">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="footer-nav">
-              <div class="fn-title">Интернет магазин</div>
-              <ul class="list-unstyled">
-                <li><a href="#">Центр поддержки Ason</a></li>
-                <li><a href="#">Статус заказа по номеру</a></li>
-                <li><a href="#">Оплата</a></li>
-                <li><a href="#">Условия возврата</a></li>
-                <li><a href="#">Условия доставки</a></li>
-                <li><a href="#">Как выбрать размер</a></li>
-                <li><a href="#">Как оформить заказ</a></li>
-              </ul>
-            </div><!--footer-nav-->
-          </div><!--col-sm-3-->
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-7">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="footer-nav">
-                      <div class="fn-title">Магазины</div>
-                      <ul class="list-unstyled">
-                        <li><a href="#">Центр поддержки Ason</a></li>
-                        <li><a href="#">Статус заказа по номеру</a></li>
-                        <li><a href="#">Оплата</a></li>
-                        <li><a href="#">Условия возврата</a></li>
-                      </ul>
-                    </div><!--footer-nav-->
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="footer-nav">
-                      <div class="fn-title">Мой аккаунт</div>
-                      <ul class="list-unstyled">
-                        <li><a href="#">Центр поддержки Ason</a></li>
-                        <li><a href="#">Статус заказа по номеру</a></li>
-                        <li><a href="#">Оплата</a></li>
-                      </ul>
-                    </div><!--footer-nav-->
+    <div class="d-none d-md-block">
+      <div class="container">
+        <div class="footer-title">ОБСЛУЖИВАНИЕ КЛИЕНТОВ</div>
+        <div class="top-footer-block">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="hot-line">
+                <div class="hl-text">Горячая линия</div>
+                <div class="hl-phone"><a href="tel:+998951993737 ">+998 (95) 199-37-37</a></div>
+                <div class="work-time">Будни: с9:00 до 19:00 (Ташкентское время)</div>
+              </div><!--hot-line-->
+            </div><!--col-sm-4-->
+            <div class="col-sm-5">
+              <div class="footer-form">
+                <a href="#">Форма обратной связи</a>
+                <div class="ff-info">свяжитесь с нами по контактной форме</div>
+              </div><!--footer-form-->
+            </div><!--col-sm-4-->
+            <div class="col-sm-3">
+              <div class="all-footer">
+                <div class="silver-text">Узнать больше</div>
+                <img src="images/soc-right.jpg" alt="">
+              </div><!--all-footer-->
+            </div><!--col-sm-4-->
+          </div><!--row-->
+          <hr>
+        </div><!--top-footer-block-->
+        <div class="bottom-footer">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="footer-nav">
+                <div class="fn-title">Интернет магазин</div>
+                <ul class="list-unstyled">
+                  <li><a href="#">Центр поддержки Ason</a></li>
+                  <li><a href="#">Статус заказа по номеру</a></li>
+                  <li><a href="#">Оплата</a></li>
+                  <li><a href="#">Условия возврата</a></li>
+                  <li><a href="#">Условия доставки</a></li>
+                  <li><a href="#">Как выбрать размер</a></li>
+                  <li><a href="#">Как оформить заказ</a></li>
+                </ul>
+              </div><!--footer-nav-->
+            </div><!--col-sm-3-->
+            <div class="col-sm-9">
+              <div class="row">
+                <div class="col-sm-7">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="footer-nav">
+                        <div class="fn-title">Магазины</div>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Центр поддержки Ason</a></li>
+                          <li><a href="#">Статус заказа по номеру</a></li>
+                          <li><a href="#">Оплата</a></li>
+                          <li><a href="#">Условия возврата</a></li>
+                        </ul>
+                      </div><!--footer-nav-->
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="footer-nav">
+                        <div class="fn-title">Мой аккаунт</div>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Центр поддержки Ason</a></li>
+                          <li><a href="#">Статус заказа по номеру</a></li>
+                          <li><a href="#">Оплата</a></li>
+                        </ul>
+                      </div><!--footer-nav-->
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-5">
-                <div class="footer-rss">
-                  <div class="fn-title">Новости</div>
-                  <p>Вы хотите плучать больше уведомлений об
-                    акциях и продажах? Подпишитесь на нашу ссылку</p>
-                  <div class="input-group mb-15px">
-                    <div class="input-group-prepend ">
-                      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                <div class="col-sm-5">
+                  <div class="footer-rss">
+                    <div class="fn-title">Новости</div>
+                    <p>Вы хотите плучать больше уведомлений об
+                      акциях и продажах? Подпишитесь на нашу ссылку</p>
+                    <div class="input-group mb-15px">
+                      <div class="input-group-prepend ">
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                      </div>
+                      <input type="text" class="form-control" id="validationTooltipUsername"  aria-describedby="validationTooltipUsernamePrepend" required>
                     </div>
-                    <input type="text" class="form-control" id="validationTooltipUsername"  aria-describedby="validationTooltipUsernamePrepend" required>
-                  </div>
-                  <div class="fr-check"><label class="check checked"><span class="checkbox"><input type="checkbox" name="12"></span> Принимаю
-                    <a href="#">условия подписки</a></label>
-                  </div>
-                  <a href="#" class="btn btn-primary">Подписаться</a>
-                </div><!--footer-rss-->
-              </div><!--col-sm-4-->
-            </div><!--row-->
-            <div class="mobile-links">
-              <a href="#"><img src="images/app-store.png" alt="" /></a>
-              <a href="#"><img src="images/gp.png" alt="" /></a>
-            </div>
-          </div><!--col-sm-9-->
+                    <div class="fr-check"><label class="check checked"><span class="checkbox"><input type="checkbox" name="12"></span> Принимаю
+                      <a href="#">условия подписки</a></label>
+                    </div>
+                    <a href="#" class="btn btn-primary">Подписаться</a>
+                  </div><!--footer-rss-->
+                </div><!--col-sm-4-->
+              </div><!--row-->
+              <div class="mobile-links">
+                <a href="#"><img src="images/app-store.png" alt="" /></a>
+                <a href="#"><img src="images/gp.png" alt="" /></a>
+              </div>
+            </div><!--col-sm-9-->
+          </div><!--row-->
+        </div><!--bottom-footer-->
+      </div><!--container-->
+    </div>
+    <div class="d-md-none d-block">
+      <div class="mobile-downloads">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-6">
+            <a href="#">
+              <img src="images/appstore-d.png" alt="" class="img-fluid" />
+            </a>
+          </div><!--col-sm-6-->
+          <div class="col-6">
+            <a href="#">
+              <img src="images/google-play-d.png" alt="" class="img-fluid" />
+            </a>
+          </div><!--col-sm-6-->
         </div><!--row-->
-      </div><!--bottom-footer-->
-    </div><!--container-->
+      </div><!--mobile-donwloads-->
+      <div class="bottom-link-home">
+        <a href="#">Перейти на основной сайт</a>
+      </div><!--bottom-link-home-->
+    </div><!--d-md-block-->
   </footer><!--footer-->
   </body>
 </html>
