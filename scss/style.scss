@@ -2308,3 +2308,90 @@ b, strong{
     padding: 0 5px;
   }
 }
+.zakaz-form{
+  .form-group{
+    &:last-child{
+      .form-control{
+        margin-bottom: 0;
+      }
+    }
+  }
+  label{
+    @include font3(400,17px);
+    color:#9c9c9c;
+    text-transform: uppercase;
+  }
+}
+.so-container{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+}
+.so{
+  min-height: 37px;
+  line-height: 37px;
+  margin-right: 20px;
+}
+.zakaz-buttons{
+  margin-top: 30px;
+  .btn{
+    width: 100%;
+  }
+  p{
+    @include font(300,16px);
+    color:#949494;
+    margin-bottom: 0;
+  }
+}
+.szrl-price{
+  @include font(700,16px);
+  color:#292929;
+  margin-bottom: 10px;
+}
+.szrl-brand{
+  @include font(500,15px);
+  color:#292929;
+}
+.szrl-info{
+  @include font(300,12px);
+  color:#292929;
+  margin-bottom: 10px;
+}
+.szrl-color{
+  display: inline-block;
+  @include font(900,14px);
+  color:#4d4d4d;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.szrl-number{
+  @include font(100,14px);
+  color:#4d4d4d;
+  span{
+    font-weight: 900;
+  }
+}
+.szrl-image{
+  border-radius: 4px;
+  overflow: hidden;
+}
+.edit-zakaz {
+  text-align: right;
+  a{
+    @include font(100,16px);
+    color:#292929;
+  }
+}
+.zakaz-email{
+  @include font(300,17px);
+  color:#292929;
+}
+.zb-p{
+  @include font(400,14px);
+  color:#292929;
+  span{
+    font-weight: 700;
+    font-size: 15px;
+    color:#101010;
+  }
+}
