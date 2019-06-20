@@ -1,5 +1,17 @@
 var $ = jQuery;
 $(document).ready(function(){
+    $('.btn-filter-mobile').click(function () {
+       $('.filter-mobile-container').slideDown("slow");
+    });
+    $('.fmc-list ul li a').click(function () {
+        $(this).parent().find('.fmc-menu').slideDown("slow");
+    });
+    $('.fmc-close').click(function () {
+        $('.fmc-menu').slideUp("slow");
+    });
+    $('.fmc-close-main').click(function () {
+        $('.filter-mobile-container').slideUp("slow");
+    });
     $(".header-nav ul li").on({
         mouseenter: function () {
             $(this).find('.second-menu').slideDown();},
@@ -28,6 +40,15 @@ $(document).ready(function(){
         items: 1,
         smartSpeed: 800,
         margin: 0,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        loop: true,
+    });
+    $('.filter-carousel').owlCarousel({
+        items: 3,
+        smartSpeed: 800,
+        margin: 6,
         nav: false,
         dots: false,
         autoplay: true,
