@@ -1,5 +1,6 @@
 var $ = jQuery;
 $(document).ready(function(){
+    $('#flag').flagStrap();
     $('.btn-filter-mobile').click(function () {
        $('.filter-mobile-container').slideDown("slow");
     });
@@ -14,9 +15,9 @@ $(document).ready(function(){
     });
     $(".header-nav ul li").on({
         mouseenter: function () {
-            $(this).find('.second-menu').slideDown();},
+            $(this).find('.second-menu').slideDown("slow");},
         mouseleave: function () {
-            $(this).find('.second-menu').slideUp();}
+            $(this).find('.second-menu').slideUp("fast");}
     });
     $('.fancy').fancybox();
     $('.large-block').zoom();
