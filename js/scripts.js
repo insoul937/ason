@@ -15,9 +15,9 @@ $(document).ready(function(){
     });
     $(".header-nav ul li").on({
         mouseenter: function () {
-            $(this).find('.second-menu').slideDown("slow");},
+            $(this).find('.second-menu').slideDown(200);},
         mouseleave: function () {
-            $(this).find('.second-menu').slideUp("fast");}
+            $(this).find('.second-menu').slideUp(100);}
     });
     $('.fancy').fancybox();
     $('.large-block').zoom();
